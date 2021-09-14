@@ -6,13 +6,8 @@ Below are a list of areas I inted to cover in this projeect. I will be updating 
 **IMPLEMENTED SECTION**
 
  Product Service  :
+ - [] A completed task
  - [x] A completed task
  - [x] A completed task
- - [x] A completed task
-                    - [x] A completed task
-                    
- Payment Service  : - [ ] An uncompleted task
-                    - [x] A completed task
-
-
+ 
 
