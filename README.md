@@ -5,7 +5,7 @@ I will start by creating the backend with all the end points and if time permits
 Below are a list of areas I inted to cover in this projeect. I will be updating all the completed sections as the project progresses and give hints on what is pending
 **IMPLEMENTED SECTION**
 
- Product Service  :
+ #Product Service  :
  - [x] created the service
  - [x] writing end points
  - [x] implementing health monitoring using actuator
@@ -14,7 +14,7 @@ Below are a list of areas I inted to cover in this projeect. I will be updating 
  - [ ] implementing swagger for documentation
  - [ ] implementing security on endpoints
 
-Order Service  :
+#Order Service  :
  - [ ] created the service
  - [ ] writing end points
  - [ ] implementing health monitoring using actuator
