@@ -6,8 +6,12 @@ Below are a list of areas I inted to cover in this projeect. I will be updating 
 **IMPLEMENTED SECTION**
 
  Product Service  :
- - [x] A completed task
- - [x] A completed task
- - [x] A completed task
+ - [x] created the service
+ - [x] writing end points
+ - [x] implementing health monitoring using actuator
+ - [ ] intergrating resilience-4j as circuit breaker
+ - [ ] intergrating mysql database
+ - [ ] implementing swagger for documentation
+ - [ ] implementing security on endpoints
  
 
