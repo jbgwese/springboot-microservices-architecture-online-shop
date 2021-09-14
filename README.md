@@ -6,12 +6,12 @@ Below are a list of areas I inted to cover in this projeect. I will be updating 
 and give hints on what is pending
 **IMPLEMENTED SECTION**
 
- **Eureka Cloud Service  :
+ **Eureka Cloud Service  :**
  - [ ] creating the service
  - [ ] initiating service discovery
 
 
- **Product Service  :
+ **Product Service  :**
  - [ ] created the service
  - [ ] writing end points
  - [ ] implementing health monitoring using actuator
@@ -21,7 +21,7 @@ and give hints on what is pending
  - [ ] implementing security on endpoints
 
 
-**Order Service  :
+**Order Service  :**
  - [ ] created the service
  - [ ] writing end points
  - [ ] implementing health monitoring using actuator
@@ -31,7 +31,7 @@ and give hints on what is pending
  - [ ] implementing security on endpoints
 
 
- **Payment Service  :
+ **Payment Service  :**
  - [ ] created the service
  - [ ] writing end points
  - [ ] implementing health monitoring using actuator
