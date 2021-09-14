@@ -32,9 +32,9 @@ and give hints on what is pending
 
 
  **Payment Service  :
- - [x] created the service
- - [x] writing end points
- - [x] implementing health monitoring using actuator
+ - [ ] created the service
+ - [ ] writing end points
+ - [ ] implementing health monitoring using actuator
  - [ ] intergrating resilience-4j as circuit breaker
  - [ ] intergrating mysql database
  - [ ] implementing swagger for documentation
