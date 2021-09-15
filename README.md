@@ -19,14 +19,17 @@ In this project, I teach you how to implement a full fletched online store in mi
 
  **Product Service  :**
  - [ ] created the service
+ - [ ] implementing swagger for documentation (i personally find this as a better alternative to postman on my machines which is slightly slower)
  - [ ] writing end points
  - [ ] hot code swapping (dev tools)
  - [ ] data validation (REST API)
  - [ ] custom exception handling
+ - [ ] building profiles(for environments like dev or qaz or production)
+ - [ ] centralised logging
+          -[ ] end points centralised logging
  - [ ] implementing health monitoring using actuator
  - [ ] intergrating resilience-4j as circuit breaker
  - [ ] intergrating mysql database
- - [ ] implementing swagger for documentation
  - [ ] implementing security on endpoints
 
 
