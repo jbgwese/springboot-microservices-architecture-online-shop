@@ -79,3 +79,6 @@ I will provide a whatsapp group for those who are interesed in learning microser
  - [ ] use sleuth
  - [ ] zipkin
  
+ **Lets see whats next: happy coding  :**
+ - [ ] :smiley:
+ - [ ] :smiley:
