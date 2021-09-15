@@ -22,17 +22,29 @@ In this project, I teach you how to implement a full fletched online store in mi
  - [ ] implementing swagger for documentation (i personally find this as a better alternative to postman on my machines which is slightly slower)
  - [ ] writing end points
  - [ ] hot code swapping (dev tools)
+ - [ ] intergrating database (mysql)
  - [ ] data validation (REST API)
  - [ ] custom exception handling
  - [ ] building profiles(for environments like dev or qaz or production)
- - [ ] centralised logging
- - [ ] Test :  > Blockquote
-                 >> Nested Blockquote
-
+ - [ ] centralised logging (all endpoints)
+ - [ ] centralised logging (masking data on request)
+ - [ ] centralised logging (filtering requests)
+ - [ ] centralised logging (externalising all logs to a file)
  - [ ] implementing health monitoring using actuator
  - [ ] intergrating resilience-4j as circuit breaker
- - [ ] intergrating mysql database
  - [ ] implementing security on endpoints
+ - [ ] advanced swagger documentation
+ - [ ] unit testing
+ - [ ] intergrated testing
+ - [ ] optionals (intergrating code coverage using Jococvob and veryfying using mutation testing , code analysiss using sornarqube)
+
+
+**Springboot Admin Server  :**
+ - [ ] created the service
+ - [ ] writing end points
+ - [ ] implementing health monitoring using actuator
+ - [ ] intergrating resilience-4j as circuit breaker
+
 
 
 **Order Service  :**
