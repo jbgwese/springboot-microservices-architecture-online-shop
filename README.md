@@ -1,10 +1,16 @@
 # springboot-microservices-architecture-online-shop
 
-This is going to be a full fletched  onlineshop project implemented using micro-services archtecture bin springboot and java.
-I will start by creating the backend with all the end points and if time permits , I am going to implement the interface using react.
-Below are a list of areas I inted to cover in this projeect. I will be updating all the completed sections as the project progress
-and give hints on what is pending
-**IMPLEMENTED SECTION**
+In this project, I teach you how to implement a full fletched online store in microservices architecture. Technologies used in this series include but not limited to java,springboot,edureka cloud server,cloud gateway,actuator,swagger,e.t.c I have tried to add a full description of step by step processes that we will be getting through adn I will be dropping each stage as a video on my youtube channel. Feel free to go, subscribe, like and share your thoughts. I will try to mae each video not mnore than 5 minutes so that tyou can easily follow. As soon as the video is ready, I wil provide the link here.
+
+**TO DOs**
+
+
+ **Introduction   :**
+ - [ ] why micro-services architecture
+ - [ ] what you are going to learn
+ - [ ] development ehnvironment setup
+ - [ ] video link to introductory video
+
 
  **Eureka Cloud Service  :**
  - [ ] creating the service
@@ -14,6 +20,9 @@ and give hints on what is pending
  **Product Service  :**
  - [ ] created the service
  - [ ] writing end points
+ - [ ] hot code swapping (dev tools)
+ - [ ] data validation (REST API)
+ - [ ] custom exception handling
  - [ ] implementing health monitoring using actuator
  - [ ] intergrating resilience-4j as circuit breaker
  - [ ] intergrating mysql database
@@ -32,6 +41,16 @@ and give hints on what is pending
 
 
  **Payment Service  :**
+ - [ ] created the service
+ - [ ] writing end points
+ - [ ] implementing health monitoring using actuator
+ - [ ] intergrating resilience-4j as circuit breaker
+ - [ ] intergrating mysql database
+ - [ ] implementing swagger for documentation
+ - [ ] implementing security on endpoints
+
+
+** Service  :**
  - [ ] created the service
  - [ ] writing end points
  - [ ] implementing health monitoring using actuator
