@@ -26,7 +26,9 @@ In this project, I teach you how to implement a full fletched online store in mi
  - [ ] custom exception handling
  - [ ] building profiles(for environments like dev or qaz or production)
  - [ ] centralised logging
-          -[ ] end points centralised logging
+ - [ ] Markup :  > Blockquote
+          >> Nested Blockquote
+
  - [ ] implementing health monitoring using actuator
  - [ ] intergrating resilience-4j as circuit breaker
  - [ ] intergrating mysql database
