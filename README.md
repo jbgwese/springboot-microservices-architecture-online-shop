@@ -1,6 +1,9 @@
 # springboot-microservices-architecture-online-shop
 
-In this project, I teach you how to implement a full fletched online store in microservices architecture. Technologies used in this series include but not limited to java,springboot,edureka cloud server,cloud gateway,actuator,swagger,e.t.c I have tried to add a full description of step by step processes that we will be getting through adn I will be dropping each stage as a video on my youtube channel. Feel free to go, subscribe, like and share your thoughts. I will try to mae each video not mnore than 5 minutes so that tyou can easily follow. As soon as the video is ready, I wil provide the link here.
+In this project, I teach you how to implement a full fletched online store in microservices architecture. Technologies used in this series include but not limited to java,springboot,edureka cloud server,cloud gateway,actuator,swagger,e.t.c I have tried to add a full description of step by step processes that we will be getting through adn I will be dropping each stage as a video on my youtube channel. Feel free to go, subscribe, like and share your thoughts. I will try to mae each video not mnore than 5 minutes so that tyou can easily follow. As soon as the video is ready, I wil provide the links here on eaach stage.
+I will provide a whatsapp group for those who are interesed in learning microservices architecture back-end as well as offer live coding sessions.
+
+**Once the session begins, the repository will be made private to allow only subscribed members to access**
 
 **TO DOs**
 
@@ -40,10 +43,11 @@ In this project, I teach you how to implement a full fletched online store in mi
 
 
 **Springboot Admin Server  :**
- - [ ] created the service
- - [ ] writing end points
- - [ ] implementing health monitoring using actuator
- - [ ] intergrating resilience-4j as circuit breaker
+ - [ ] creating Admin and client server
+ - [ ] registering multiple instances
+ - [ ] changing log levels
+ - [ ] data persistance and clustering (optional - Hazelcast)
+ - [ ] makling the interface lot beautiful
 
 
 
@@ -67,11 +71,11 @@ In this project, I teach you how to implement a full fletched online store in mi
  - [ ] implementing security on endpoints
 
 
-** Service  :**
- - [ ] created the service
- - [ ] writing end points
- - [ ] implementing health monitoring using actuator
- - [ ] intergrating resilience-4j as circuit breaker
- - [ ] intergrating mysql database
- - [ ] implementing swagger for documentation
- - [ ] implementing security on endpoints
+**Mock a Paymnet service  :**
+ - [ ] use WIREMOCK
+ 
+ 
+**Distributed Tracing  :**
+ - [ ] use sleuth
+ - [ ] zipkin
+ 
