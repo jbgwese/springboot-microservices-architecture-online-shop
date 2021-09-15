@@ -82,3 +82,4 @@ I will provide a whatsapp group for those who are interesed in learning microser
  **Lets see whats next: happy coding  :**
  - [ ] :smiley:
  - [ ] :smiley:
+ - [ ] can we do a front-end ? , I am thinking react or vue ? whats your take ? :smiley:
