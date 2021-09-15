@@ -21,11 +21,11 @@ I will provide a whatsapp group for those who are interesed in learning microser
 
 
  **Product Service  :**
- - [ ] creating the service
- - [ ] implementing swagger for documentation (i personally find this as a better alternative to postman on my machines which is slightly slower)
- - [ ] writing end points
- - [ ] hot code swapping (dev tools)
- - [ ] intergrating database (mysql)
+ - [x] creating the service
+ - [x] implementing swagger for documentation (i personally find this as a better alternative to postman on my machines which is slightly slower)
+ - [x] writing end points
+ - [x] hot code swapping (dev tools)
+ - [x] intergrating database (mysql)
  - [ ] data validation (REST API)
  - [ ] custom exception handling
  - [ ] building profiles(for environments like dev or qaz or production)
