@@ -21,7 +21,7 @@ I will provide a whatsapp group for those who are interesed in learning microser
 
 
  **Product Service  :**
- - [ ] created the service
+ - [ ] creating the service
  - [ ] implementing swagger for documentation (i personally find this as a better alternative to postman on my machines which is slightly slower)
  - [ ] writing end points
  - [ ] hot code swapping (dev tools)
@@ -52,7 +52,7 @@ I will provide a whatsapp group for those who are interesed in learning microser
 
 
 **Order Service  :**
- - [ ] created the service
+ - [ ] creating the service
  - [ ] writing end points
  - [ ] implementing health monitoring using actuator
  - [ ] intergrating resilience-4j as circuit breaker
@@ -62,7 +62,7 @@ I will provide a whatsapp group for those who are interesed in learning microser
 
 
  **Payment Service  :**
- - [ ] created the service
+ - [ ] creating the service
  - [ ] writing end points
  - [ ] implementing health monitoring using actuator
  - [ ] intergrating resilience-4j as circuit breaker
