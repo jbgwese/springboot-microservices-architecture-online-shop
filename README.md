@@ -1,7 +1,7 @@
 # springboot-microservices-architecture-online-shop
 
-In this project, I teach you how to implement a full fletched online store in microservices architecture. Technologies used in this series include but not limited to java,springboot,edureka cloud server,cloud gateway,actuator,swagger,e.t.c I have tried to add a full description of step by step processes that we will be getting through adn I will be dropping each stage as a video on my youtube channel. Feel free to go, subscribe, like and share your thoughts. I will try to mae each video not mnore than 5 minutes so that tyou can easily follow. As soon as the video is ready, I wil provide the links here on eaach stage.
-I will provide a whatsapp group for those who are interesed in learning microservices architecture back-end as well as offer live coding sessions.
+In this project, I teach you how to implement a full fletched online store in microservices architecture. Technologies used in this series include but not limited to java,springboot,edureka cloud server,cloud gateway,actuator,swagger,e.t.c I have tried to add a full description of step by step processes that we will be getting through adn I will be dropping each stage as a video on my youtube channel. Feel free to go, subscribe, like and share your thoughts. I will try to make each videovery short so that tyou can easily follow. As soon as the video is ready, I wil provide the links here on eaach stage.
+I will provide a whatsapp group for those who are interested in learning microservices architecture back-end as well as offer live coding sessions.
 
 **Once the session begins, the repository will be made private to allow only subscribed members to access**
 
