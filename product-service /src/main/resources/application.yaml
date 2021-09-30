@@ -15,6 +15,10 @@ product:
     - USD
     - ZWL
     - SAR
+logging:
+  file:
+    name: product.log
+  #  path: d:\ogs
 ---
 server:
   port: 9006
