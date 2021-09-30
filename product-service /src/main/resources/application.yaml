@@ -10,6 +10,11 @@ spring:
     name: PRODUCT-SERVICE
   profiles:
     active: dev
+  boot:
+    admin:
+      client:
+        url:
+          - http://localhost:9009
 product:
   currencies:
     - USD
@@ -18,7 +23,21 @@ product:
 logging:
   file:
     name: product.log
+  logback:
+    rollingpolicy:
+      max-file-size: 100KB
   #  path: d:\ogs
+#actauto specific endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+  endpoint:
+    health:
+      show-details: always
+
 ---
 server:
   port: 9006
