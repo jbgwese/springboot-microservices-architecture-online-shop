@@ -11,7 +11,7 @@ I will provide a whatsapp group for those who are interested in learning microse
  **Introduction   :**
  - [ ] why micro-services architecture
  - [ ] what you are going to learn
- - [ ] development ehnvironment setup
+ - [ ] development environment setup
  - [ ] video link to introductory video
 
 
@@ -26,12 +26,12 @@ I will provide a whatsapp group for those who are interested in learning microse
  - [x] writing end points
  - [x] hot code swapping (dev tools)
  - [x] intergrating database (mysql)
- - [ ] data validation (REST API)
- - [ ] custom exception handling
- - [ ] building profiles(for environments like dev or qaz or production)
- - [ ] centralised logging (all endpoints)
- - [ ] centralised logging (masking data on request)
- - [ ] centralised logging (filtering requests)
+ - [x] data validation (REST API)
+ - [x] custom exception handling
+ - [x] building profiles(for environments like dev or qaz or production)
+ - [x] centralised logging (all endpoints)
+ - [x] centralised logging (masking data on request)
+ - [x] centralised logging (filtering requests)
  - [ ] centralised logging (externalising all logs to a file)
  - [ ] implementing health monitoring using actuator
  - [ ] intergrating resilience-4j as circuit breaker
