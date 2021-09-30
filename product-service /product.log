@@ -194,3 +194,38 @@
 2021-09-30 21:40:10.318  INFO 1271 --- [http-nio-9006-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-09-30 21:40:10.319  INFO 1271 --- [http-nio-9006-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-09-30 21:40:10.321  INFO 1271 --- [http-nio-9006-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-09-30 22:06:39.256  WARN 1271 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=PRODUCT-SERVICE, managementUrl=http://sprogrammer-HP-EliteBook-2540p:9006/actuator, healthUrl=http://sprogrammer-HP-EliteBook-2540p:9006/actuator/health, serviceUrl=http://sprogrammer-HP-EliteBook-2540p:9006/) at spring-boot-admin ([http://localhost:9009/instances]): I/O error on POST request for "http://localhost:9009/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-09-30 22:08:33.221  INFO 1271 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-30 22:08:33.222  INFO 1271 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-30 22:08:33.456  WARN 1271 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-09-30 22:08:33.459  INFO 1271 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-30 22:08:33.469  INFO 1271 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-30 22:13:22.102  INFO 4388 --- [restartedMain] c.j.p.ProductServiceApplication          : Starting ProductServiceApplication using Java 11.0.11 on sprogrammer-HP-EliteBook-2540p with PID 4388 (/home/sprogrammer/IdeaProjects/github/springboot-microservices-architecture-online-shop/product-service /target/classes started by sprogrammer in /home/sprogrammer/IdeaProjects/github/springboot-microservices-architecture-online-shop/product-service )
+2021-09-30 22:13:22.106  INFO 4388 --- [restartedMain] c.j.p.ProductServiceApplication          : The following profiles are active: dev
+2021-09-30 22:13:22.223  INFO 4388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-30 22:13:22.224  INFO 4388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-30 22:13:24.169  INFO 4388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-30 22:13:24.249  INFO 4388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2021-09-30 22:13:25.128  INFO 4388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9006 (http)
+2021-09-30 22:13:25.139  INFO 4388 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 22:13:25.140  INFO 4388 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-30 22:13:25.248  INFO 4388 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 22:13:25.249  INFO 4388 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3023 ms
+2021-09-30 22:13:25.489  INFO 4388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-30 22:13:25.674  INFO 4388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-30 22:13:25.681  INFO 4388 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5aed6fea-56cd-4f92-adb1-7138b591d0b9'
+2021-09-30 22:13:25.994  INFO 4388 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-30 22:13:26.143  INFO 4388 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-30 22:13:26.323  INFO 4388 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-30 22:13:26.483  INFO 4388 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-30 22:13:27.192  INFO 4388 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-30 22:13:27.205  INFO 4388 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-30 22:13:27.831  WARN 4388 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-30 22:13:29.286  INFO 4388 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-30 22:13:29.299  INFO 4388 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-09-30 22:13:29.371  INFO 4388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9006 (http) with context path ''
+2021-09-30 22:13:29.404  INFO 4388 --- [restartedMain] c.j.p.ProductServiceApplication          : Started ProductServiceApplication in 8.289 seconds (JVM running for 9.764)
+2021-09-30 22:13:29.885  INFO 4388 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d2a2caba97af
+2021-09-30 22:13:29.944  INFO 4388 --- [http-nio-9006-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-30 22:13:29.944  INFO 4388 --- [http-nio-9006-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-30 22:13:29.949  INFO 4388 --- [http-nio-9006-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms

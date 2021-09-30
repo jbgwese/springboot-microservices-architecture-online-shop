@@ -1,2 +1,17 @@
 server:
   port: 9009
+spring:
+  mail:
+    host: smtp.mailtrap.io
+    port: 2525
+    username: 6e1e54dd9fd12fd5
+    password: 296c5ab33fcc8a
+    test-connection: true
+  boot:
+    admin:
+      notify:
+        mail:
+          to:
+            - test@gmail.com
+          ignore-changes:
+            -
