@@ -1,0 +1,25 @@
+server:
+  port: 9003
+spring:
+  h2:
+    console:
+      enabled=true:
+  datasource:
+    url=jdbc:h2:mem:product:
+  application:
+    name: PRODUCT-SERVICE
+  profiles:
+    active: dev
+product:
+  currencies:
+    - USD
+    - ZWL
+    - SAR
+---
+server:
+  port: 9006
+spring:
+  config:
+    activate:
+      on-profile:
+        - dev

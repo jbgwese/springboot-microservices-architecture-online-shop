@@ -1,62 +1,51 @@
 package com.jbgwese.productservice.service;
 
+import com.jbgwese.productservice.config.ProductConfiguration;
+import com.jbgwese.productservice.exception.CurrencyNotValidException;
+import com.jbgwese.productservice.exception.OfferNotValidException;
 import com.jbgwese.productservice.model.Product;
+import com.jbgwese.productservice.repository.ProductRepository;
+import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.Optional;
 
+@Service
+@Slf4j
+@AllArgsConstructor
 public class ProductService {
 
-    List<Product> products = new ArrayList<>();
+    private ProductRepository productRepository;
 
-    public String addProduct(Product product) {
-        products.add(product);
-        return "successfull";
-    }
+    private ProductConfiguration productConfiguration;
 
-    public List<Product> productList() {
-        return products;
-    }
-
-    public List<Product> productListByCategory(String category) {
-        return products.stream().filter(product -> product.getCategory().getName().equalsIgnoreCase(category))
-                .collect(Collectors.toList());
-
-    }
-
-    public Product productListById(long id) {
-        return products.stream().filter(product -> product.getId() == id)
-                .findAny()
-                .get();
-    }
-
-    public String updateProduct(Product product) {
-        for (Product prod : products) {
-            if (prod.getId() == product.getId()) {
-
-                prod.setName(product.getName());
-                prod.setCategory(product.getCategory());
-                prod.setPrice(product.getPrice());
-                prod.setPrice(product.getPrice());
-                prod.setDiscount(product.getPrice());
-
-                return "product updated";
-            }
+    public ResponseEntity<Product> saveProduct(Product product) {
+        log.info("-------------------adding product-----------");
+        if(product.getPrice()==0 && product.getDiscount()>0) {
+            throw new OfferNotValidException("no discount allowed for Product with price 0");
         }
-        return "product update failed";
-    }
+        List<String> validCurrencies = new ArrayList<>();
 
-    public String deleteProductById(long id) {
-        for (Product prod:products) {
-
-            if (prod.getId()==id){
-                products.remove(prod);
-              return "product deleted";
-            }
-
+        if(!productConfiguration.getCurrencies().contains(product.getCurrency().toUpperCase())){
+            throw new CurrencyNotValidException("Invalid currency. Valid currencies are "+ productConfiguration.getCurrencies());
         }
 
-        return "product with id "+id+" is not found";
+      return  ResponseEntity.status(HttpStatus.CREATED).body(product);
+
     }
+
+    public List<Product> listProducts() {
+        log.info("-------------listing products------------");
+        return productRepository.findAll();
+    }
+
+   /* public Optional<Product> updateProduct(String id) {
+     Optional<Product> product=productRepository.findById(id);
+         productRepository.save(product);
+    }*/
 }
